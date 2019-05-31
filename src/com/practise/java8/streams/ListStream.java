@@ -10,9 +10,8 @@ public class ListStream {
 
     public static void main(String[] args) {
 
-        List<Integer> numbersList = Arrays.asList(1,2,3,4,5,6);
+        List<Integer> numbersList = Arrays.asList(1,2,3,4,5,6,7,8);
 
-        // double the even numbers and sum it
 
         System.out.println( numbersList.stream()
                 .filter(i -> i%2==0)
